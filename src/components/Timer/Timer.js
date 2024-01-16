@@ -6,7 +6,7 @@ const Timer = ({ Timer }) => {
       }
       
       const convertMsToTime = milliseconds => {
-        let seconds = Math.floor(milliseconds / 250);
+        let seconds = Math.floor(milliseconds / 1000);
         let minutes = Math.floor(seconds / 60);
         let hours = Math.floor(minutes / 60);
       
